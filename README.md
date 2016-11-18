@@ -8,7 +8,7 @@ Install
 
 1.-Replace the "icons" folder 
 
-2.-Replace this Code
+2.-Replace this Code in statusbar.sqf or replace these with the old statusbar.sqf (w/o temperature)
 
 	sb_getIcon = {
 		_value = _this select 0;
