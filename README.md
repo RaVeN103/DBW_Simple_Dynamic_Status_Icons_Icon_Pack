@@ -62,6 +62,8 @@ Install
   
  INFO
 -These codes are based on the first script without temperature!!!
+
+statusbar.sqf
   
  	 waitUntil {!(isNull (findDisplay 46))};
 	disableSerialization;
