@@ -5,7 +5,9 @@ https://github.com/neonoxd/Exile-Dynamic-StatusIcons
 
 
 Install
+
 1.-Replace the "icons" folder 
+
 2.-Replace this Code
 
 	sb_getIcon = {
