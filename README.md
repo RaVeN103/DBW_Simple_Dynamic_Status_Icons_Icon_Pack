@@ -1,5 +1,5 @@
 # DBW_Simple_Dynamic_Status_Icons_Icon_Pack
-This is an icon extension pack for dbw's dynamic statusbar script.
+This is an icon extension pack (5% steps) for dbw's dynamic statusbar script. 
 https://github.com/neonoxd/Exile-Dynamic-StatusIcons
 
 
