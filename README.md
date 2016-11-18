@@ -8,12 +8,12 @@ Install
 1.-Replace the "icons" folder 
 2.-Replace this Code
 
-sb_getIcon = {
+	sb_getIcon = {
 		_value = _this select 0;
 		_icon = "100";
 		
-		if (_value >= 100 ) then 							{ _icon ="100";	};
-		if (_value >=90 && _value < 100 ) then 	{ _icon ="90";		};
+		if (_value >= 100 ) then 			{ _icon ="100";	};
+		if (_value >=90 && _value < 100 ) then 		{ _icon ="90";		};
 		if (_value >=80 && _value < 90 ) then 		{ _icon ="80";		};
 		if (_value >=70 && _value < 80 ) then 		{ _icon ="70";		};
 		if (_value >=60 && _value < 70 ) then 		{ _icon ="60";		};
@@ -23,14 +23,14 @@ sb_getIcon = {
 		if (_value >=20 && _value < 30 ) then 		{ _icon ="20";		};
 		if (_value >=10 && _value < 20 ) then 		{ _icon ="10";		};
 		if (_value >=1 && _value < 10 ) then 		{ _icon ="1";		};
-		if (_value < 1 ) then 								{ _icon ="0";		};
+		if (_value < 1 ) then 				{ _icon ="0";		};
 		
 		_icon
-  };
+ 	 };
   
 -with this
  
- sb_getIcon = {
+ 	sb_getIcon = {
 		_value = _this select 0;
 		_icon = "100";
 		
@@ -63,7 +63,7 @@ sb_getIcon = {
  INFO
 -These codes are based on the first script without temperature!!!
   
-  waitUntil {!(isNull (findDisplay 46))};
+ 	 waitUntil {!(isNull (findDisplay 46))};
 	disableSerialization;
 	uiSleep 8;
 	
@@ -97,7 +97,7 @@ sb_getIcon = {
 		_icon
 	};
 
-sb_updateIcons = {
+	sb_updateIcons = {
 
 		_iconh = _this select 0;
 		_iconf = _this select 1;
